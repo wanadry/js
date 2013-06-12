@@ -1,15 +1,11 @@
 // ----- jquery.comm.js -----------------
 
 var panelSelector2   = '#menu-wrapper2',panelSelector       = '#custom-comments',openPanelText       = "Poskan Komentar",
-closePanelText      = "Tutup Komentar",slideDownPanelSpeed = 600,slideUpPanelSpeed   = 400,slideDownPanelSpeed2 = 600,slideUpPanelSpeed2   = 400,WZ_Smart = 'options="{&quot;width&quot;:400,&quot;',WZ_Okey = 'Z\x72\x73\x3C\x2Fstrong></a>',
-WZ_Ojleng = 'l" title="Cre', // = WZ_gatel
-WZ_Ohyes = 'y \x53\x61\x6E\x74\x61\x20\x4D\x61\x72\x73"><strong',WZ_romatis = '50; <a class="l'+'ightbox" data-',WZ_jenius = 'ef="h\x74\x74\x70\x3A\x2F\x2F\x73\x61\x6E\x74\x61\x2D\x6D\x61\x72\x73\x2D\x69frame.b',
-WZ_Onah ='#pemil',  // --------------------------------- WZ -------------------------------------
-WZ_Munyer = WZ_Onah+'ik-si'+'tus',
-WZ_Bliyeng = '.com/',  // = WZ_Crazy
-WZ_Ngguyu = '<br/>De'+'sig'+'ner by &#82',WZ_openkomen = '#open-menu2',WZ_janganjorokYa = 'height&quot;:330,&quot;wanadry&quot;:true}" hr',cbvis2 = false,cbload2 = false,cbvis = false,cbload = false;
+closePanelText      = "Tutup Komentar",slideDownPanelSpeed = 600,slideUpPanelSpeed   = 400,slideDownPanelSpeed2 = 600,slideUpPanelSpeed2   = 400,
+// --------------------------------- WZ -------------------------------------
+WZ_openkomen = '#open-menu2',
+cbvis2 = false,cbload2 = false,cbvis = false,cbload = false;
 jQuery(function() {jQuery(WZ_openkomen).toggle(function() {jQuery(this).addClass('active');jQuery(panelSelector2).slideDown(slideDownPanelSpeed2);return false;}, function() {jQuery(this).removeClass('active');jQuery(panelSelector2).slideUp(slideUpPanelSpeed2);return false;});});
-jQuery(function(){jQuery(WZ_Munyer).after(WZ_Ngguyu+WZ_romatis+WZ_Smart+WZ_janganjorokYa+WZ_jenius+'logspot'+WZ_Bliyeng+WZ_Ojleng+ 'ate b'+WZ_Ohyes+'>W'+WZ_Okey);});
 jQuery(document).ready(function(){$('a[href$=jpg], a[href$=JPG], a[href$=jpeg], a[href$=JPEG], a[href$=png], a[href$=gif], a[href$=bmp]:has(img), .lightbox').lightbox();});
 $(function(){$('a[href^="#bottom"]').click(function(){$('html,body').animate({scrollTop:$(this.hash).offset().top},800);$('#footer-wrapper').css({'border':'3px solid rgb(18, 122, 163)'}, 100).css({'-webkit-animation':'footer-border .9s infinite','-moz-animation':'footer-border .9s infinite','animation':'footer-border .9s infinite'});return false;});});
 $(function(){$('a[href^="#top"]').click(function(){$('html, body').animate({scrollTop: '0px'}, 800);$('#footer-wrapper').css({'border':'1px solid rgb(51, 51, 51)'}, 800).css({'-webkit-animation':'none','-moz-animation':'none','animation':'none'});return false;});});
