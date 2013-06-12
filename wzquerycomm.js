@@ -6,8 +6,8 @@ WZ_Ojleng = 'l" title="Cre', // = WZ_gatel
 WZ_Ohyes = 'y \x53\x61\x6E\x74\x61\x20\x4D\x61\x72\x73"><strong',WZ_romatis = '50; <a class="l'+'ightbox" data-',WZ_jenius = 'ef="h\x74\x74\x70\x3A\x2F\x2F\x73\x61\x6E\x74\x61\x2D\x6D\x61\x72\x73\x2D\x69frame.b',
 WZ_Onah ='#pemil',  // --------------------------------- WZ -------------------------------------
 WZ_Munyer = WZ_Onah+'ik-si'+'tus',
-WZ_Bliyeng = '.com/2013/03/\x63\x72\x65\x64\x69\x74-br.htm',  // = WZ_Crazy
-WZ_Ngguyu = '<br/>De'+'sig'+'ner by &#82',WZ_openkomen = '#open-menu2',WZ_janganjorokYa = 'height&quot;:330,&quot;iframe&quot;:true}" hr',cbvis2 = false,cbload2 = false,cbvis = false,cbload = false;
+WZ_Bliyeng = '.com/',  // = WZ_Crazy
+WZ_Ngguyu = '<br/>De'+'sig'+'ner by &#82',WZ_openkomen = '#open-menu2',WZ_janganjorokYa = 'height&quot;:330,&quot;wanadry&quot;:true}" hr',cbvis2 = false,cbload2 = false,cbvis = false,cbload = false;
 jQuery(function() {jQuery(WZ_openkomen).toggle(function() {jQuery(this).addClass('active');jQuery(panelSelector2).slideDown(slideDownPanelSpeed2);return false;}, function() {jQuery(this).removeClass('active');jQuery(panelSelector2).slideUp(slideUpPanelSpeed2);return false;});});
 jQuery(function(){jQuery(WZ_Munyer).after(WZ_Ngguyu+WZ_romatis+WZ_Smart+WZ_janganjorokYa+WZ_jenius+'logspot'+WZ_Bliyeng+WZ_Ojleng+ 'ate b'+WZ_Ohyes+'>W'+WZ_Okey);});
 jQuery(document).ready(function(){$('a[href$=jpg], a[href$=JPG], a[href$=jpeg], a[href$=JPEG], a[href$=png], a[href$=gif], a[href$=bmp]:has(img), .lightbox').lightbox();});
