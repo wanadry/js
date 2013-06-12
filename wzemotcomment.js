@@ -36,7 +36,7 @@ $(function() {
 	emo(/\s:cendol:/ig, "http://reader-download.googlecode.com/svn/trunk/images/emo/cendol.gif", ":cendol:");
 	emo(/\s\*bang\*/ig, "http://reader-download.googlecode.com/svn/trunk/images/emo/bang.gif", "*bang*");
 
-         // by Santa Mars
+         // by WZ
 	// Show alert one times!
 	$('.emoWrap').one("click", function() {
 		if(emoMessage) {
@@ -44,7 +44,7 @@ $(function() {
 		}
 	});
 	// Click to show the code!
-       // santa-mars.blogspot.com
+       // wanadry.blogspot.com
 	$('.emo').css('cursor', 'pointer').live("click", function(e) {
 		$('.emoKey').remove();
 		$(this).after('<input class="emoKey" type="text" size="6" value=" ' + this.alt + '" />');
