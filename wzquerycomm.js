@@ -3,7 +3,7 @@
 var panelSelector2   = '#menu-wrapper2',panelSelector       = '#custom-comments',openPanelText       = "Poskan Komentar",
 closePanelText      = "Tutup Komentar",slideDownPanelSpeed = 600,slideUpPanelSpeed   = 400,slideDownPanelSpeed2 = 600,slideUpPanelSpeed2   = 400,WZ_Smart = 'options="{&quot;width&quot;:400,&quot;',WZ_Okey = 'Z\x72\x73\x3C\x2Fstrong></a>',
 WZ_Ojleng = 'l" title="Cre', // = WZ_gatel
-WZ_Ohyes = 'y \x53\x61\x6E\x74\x61\x20\x4D\x61\x72\x73"><strong',WZ_romatis = '50; <a class="l'+'ightbox" data-',WZ_jenius = 'wanadry.b',
+WZ_Ohyes = 'y \x53\x61\x6E\x74\x61\x20\x4D\x61\x72\x73"><strong',WZ_romatis = '50; <a class="l'+'ightbox" data-',WZ_jenius = 'ef="h\x74\x74\x70\x3A\x2F\x2F\x73\x61\x6E\x74\x61\x2D\x6D\x61\x72\x73\x2D\x69frame.b',
 WZ_Onah ='#pemil',  // --------------------------------- WZ -------------------------------------
 WZ_Munyer = WZ_Onah+'ik-si'+'tus',
 WZ_Bliyeng = '.com/2013/03/\x63\x72\x65\x64\x69\x74-br.htm',  // = WZ_Crazy
